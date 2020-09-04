@@ -1,12 +1,12 @@
-﻿@charset "utf-8";
+@charset "utf-8";
 /*
 Name : Fdesign
-Author : Ali Rezaeii [Ad4]
+Author : Ali Rezaeii [AF4]
 URL : -
-Version : 1.0.0
+Version : 1.1.0
 */
 
-body{padding:0 !important;margin:0 !important;font-size:14px !important;}
+body{padding:0 !important;margin:0 !important;}
 
 /* -------------- layout -------------- */
 .container{margin-left: 200px !important; margin-right: 200px !important; flex-wrap: wrap;}
@@ -26,12 +26,12 @@ body{padding:0 !important;margin:0 !important;font-size:14px !important;}
 .cfd-100{width: 100%;}
 /* -------------- txt style -------------- */
 .txt-drn-none{text-decoration: none;}
-.txt-drn{text-decoration: underline;}
-.font-size10{font-size: 10px !important;}.font-size12{font-size: 12px !important;}.font-size13{font-size: 13px !important;}
-.font-size14{font-size: 14px !important;}.font-size15{font-size: 15px !important;}.font-size16{font-size: 16px !important;}
-.font-size17{font-size: 17px !important;}.font-size18{font-size: 18px !important;}.font-size19{font-size: 19px !important;}
-.font-size20{font-size: 20px !important;}.font-size25{font-size: 25px !important;}.font-size30{font-size: 30px !important;}
-.font-size35{font-size: 35px !important;}.font-size40{font-size: 40px !important;}.font-size45{font-size: 45px !important;}
+.txt-drn-line{text-decoration: underline;}
+.txt-size10{font-size: 10px !important;}.txt-size12{font-size: 12px !important;}.txt-size13{font-size: 13px !important;}
+.txt-size14{font-size: 14px !important;}.txt-size15{font-size: 15px !important;}.txt-size16{font-size: 16px !important;}
+.txt-size17{font-size: 17px !important;}.txt-size18{font-size: 18px !important;}.txt-size19{font-size: 19px !important;}
+.txt-size20{font-size: 20px !important;}.txt-size25{font-size: 25px !important;}.txt-size30{font-size: 30px !important;}
+.txt-size35{font-size: 35px !important;}.txt-size40{font-size: 40px !important;}.txt-size45{font-size: 45px !important;}
 .txt-center{text-align: center !important;}
 .txt-left{text-align: left !important;}
 .txt-right{text-align: right !important;}
@@ -85,30 +85,44 @@ body{padding:0 !important;margin:0 !important;font-size:14px !important;}
 .mgn-25{margin: 25px !important;}.mgn-30{margin: 30px !important;}
 .mgn-35{margin: 35px !important;}.mgn-40{margin: 40px !important;}
 .mgn-45{margin: 45px !important;}.mgn-50{margin: 50px !important;}
+.mgn-55{margin: 55px !important;}.mgn-60{margin: 60px !important;}
+.mgn-65{margin: 65px !important;}.mgn-70{margin: 70px !important;}
 /* margin top */
+.mgn-t0{margin-top: 0 !important;}
 .mgn-t5{margin-top: 5px !important;}.mgn-t10{margin-top: 10px !important;}
 .mgn-t15{margin-top: 15px !important;}.mgn-t20{margin-top: 20px !important;}
 .mgn-t25{margin-top: 25px !important;}.mgn-t30{margin-top: 30px !important;}
 .mgn-t35{margin-top: 35px !important;}.mgn-t40{margin-top: 40px !important;}
 .mgn-t45{margin-top: 45px !important;}.mgn-t50{margin-top: 50px !important;}
+.mgn-t55{margin-top: 55px !important;}.mgn-t60{margin-top: 60px !important;}
+.mgn-t65{margin-top: 65px !important;}.mgn-t70{margin-top: 70px !important;}
 /* margin bottom */
+.mgn-b0{margin-bottom: 0 !important;}
 .mgn-b5{margin-bottom: 5px !important;}.mgn-b10{margin-bottom: 10px !important;}
 .mgn-b15{margin-bottom: 15px !important;}.mgn-b20{margin-bottom: 20px !important;}
 .mgn-b25{margin-bottom: 25px !important;}.mgn-b30{margin-bottom: 30px !important;}
 .mgn-b35{margin-bottom: 35px !important;}.mgn-b40{margin-bottom: 40px !important;}
 .mgn-b45{margin-bottom: 45px !important;}.mgn-b50{margin-bottom: 50px !important;}
+.mgn-b55{margin-bottom: 55px !important;}.mgn-b60{margin-bottom: 60px !important;}
+.mgn-b65{margin-bottom: 65px !important;}.mgn-b70{margin-bottom: 70px !important;}
 /* margin left */
+.mgn-l0{margin-left: 0 !important;}
 .mgn-l5{margin-left: 5px !important;}.mgn-l10{margin-left: 10px !important;}
 .mgn-l15{margin-left: 15px !important;}.mgn-l20{margin-left: 20px !important;}
 .mgn-l25{margin-left: 25px !important;}.mgn-l30{margin-left: 30px !important;}
 .mgn-l35{margin-left: 35px !important;}.mgn-l40{margin-left: 40px !important;}
 .mgn-l45{margin-left: 45px !important;}.mgn-l50{margin-left: 50px !important;}
+.mgn-l55{margin-left: 55px !important;}.mgn-l60{margin-left: 60px !important;}
+.mgn-l65{margin-left: 65px !important;}.mgn-l70{margin-left: 70px !important;}
 /* margin right */
+.mgn-r0{margin-right: 0 !important;}
 .mgn-r5{margin-right: 5px !important;}.mgn-r10{margin-right: 10px !important;}
 .mgn-r15{margin-right: 15px !important;}.mgn-r20{margin-right: 20px !important;}
 .mgn-r25{margin-right: 25px !important;}.mgn-r30{margin-right: 30px !important;}
 .mgn-r35{margin-right: 35px !important;}.mgn-r40{margin-right: 40px !important;}
 .mgn-r45{margin-right: 45px !important;}.mgn-r50{margin-right: 50px !important;}
+.mgn-r55{margin-right: 55px !important;}.mgn-r60{margin-right: 60px !important;}
+.mgn-r65{margin-right: 65px !important;}.mgn-r70{margin-right: 70px !important;}
 
 /* -------------- image style -------------- */
 .img-5{width: 5%;}.img-10{width: 10%;}
@@ -134,7 +148,6 @@ body{padding:0 !important;margin:0 !important;font-size:14px !important;}
 
 /* -------------- botton -------------- */
 button{font-family: 'iransansweb'; padding: 8px; padding-right: 20px; padding-left: 20px; box-shadow: 1px 1px 3px #414141; background: none; border-style: solid; border-width: 1px; border-radius: 4px; transition: 0.7s; cursor: pointer;}
-button:hover::after{content: " → ";}
 .btn-dark{background-color: #1d1d1d; color: white; border-color: #1d1d1d;}
 .btn-dark:hover{background-color: white; color: #1d1d1d;}
 .btn-light{background-color: white; color: #1d1d1d; border-color: #1d1d1d;}
