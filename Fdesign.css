@@ -3,7 +3,7 @@
 Name : Fdesign
 Author : Ali Rezaeii [AR4]
 URL : -
-Version : 1.1.0
+Version : 1.1.2
 */
 
 body{padding:0 !important;margin:0 !important;}
@@ -27,11 +27,11 @@ body{padding:0 !important;margin:0 !important;}
 /* -------------- txt style -------------- */
 .txt-drn-none{text-decoration: none;}
 .txt-drn-line{text-decoration: underline;}
-.txt-size10{font-size: 10px !important;}.txt-size12{font-size: 12px !important;}.txt-size13{font-size: 13px !important;}
-.txt-size14{font-size: 14px !important;}.txt-size15{font-size: 15px !important;}.txt-size16{font-size: 16px !important;}
-.txt-size17{font-size: 17px !important;}.txt-size18{font-size: 18px !important;}.txt-size19{font-size: 19px !important;}
-.txt-size20{font-size: 20px !important;}.txt-size25{font-size: 25px !important;}.txt-size30{font-size: 30px !important;}
-.txt-size35{font-size: 35px !important;}.txt-size40{font-size: 40px !important;}.txt-size45{font-size: 45px !important;}
+.font-size10{font-size: 10px !important;}.font-size12{font-size: 12px !important;}.font-size13{font-size: 13px !important;}
+.font-size14{font-size: 14px !important;}.font-size15{font-size: 15px !important;}.font-size16{font-size: 16px !important;}
+.font-size17{font-size: 17px !important;}.font-size18{font-size: 18px !important;}.font-size19{font-size: 19px !important;}
+.font-size20{font-size: 20px !important;}.font-size25{font-size: 25px !important;}.font-size30{font-size: 30px !important;}
+.font-size35{font-size: 35px !important;}.font-size40{font-size: 40px !important;}.font-size45{font-size: 45px !important;}
 .txt-center{text-align: center !important;}
 .txt-left{text-align: left !important;}
 .txt-right{text-align: right !important;}
@@ -162,7 +162,7 @@ button{font-family: 'iransansweb'; padding: 8px; padding-right: 20px; padding-le
 .btn-gold:hover{background-color: white; color: gold;}
 
 .d-none{display: none;}
-/* -------------- just for desktop -------------- */
+/* -------------- only for desktop -------------- */
 @media (min-width: 900px) {
     .d-des-none{display: none;}
 }
